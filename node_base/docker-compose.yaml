@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  node:
+    build: . # Usa la immagine generata dal Dockerfile presente nella directory corrente
+    container_name: node
+    ports:
+      - "8888:3000"

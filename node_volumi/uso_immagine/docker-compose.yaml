@@ -1,0 +1,8 @@
+services:
+  node:
+    image: nodeapp:1.0.0 # Usa l'immagine nodeapp:1.0.0 generata in precedenza
+    container_name: node
+    ports:
+      - "8888:3000"
+    volumes:
+      - C:\Users\fabio.parisi\Desktop\lezione\node_volumi\uso_immagine\volumes\config.json:/usr/src/app/config.json

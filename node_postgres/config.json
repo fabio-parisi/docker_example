@@ -1,0 +1,7 @@
+{
+    "host": "host.docker.internal",
+    "database": "mydb",
+    "port": 5432,
+    "user": "admin",
+    "password": "admin"
+}
