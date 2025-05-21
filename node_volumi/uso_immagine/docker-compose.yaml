@@ -5,4 +5,4 @@ services:
     ports:
       - "8888:3000"
     volumes:
-      - C:\Users\fabio.parisi\Desktop\lezione\node_volumi\uso_immagine\volumes\config.json:/usr/src/app/config.json
+      - .\volumes\config.json:/usr/src/app/config.json
